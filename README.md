@@ -49,7 +49,8 @@ Route 53 のホストゾーンのルートドメインのドメイン検証を�
 
 ```
 $ npm install
-$ cdk bootstrap
+$ cdk synth
+$ cdk bootstrap # 必要であれば https://docs.aws.amazon.com/ja_jp/cdk/v2/guide/bootstrapping.html
 $ cdk deploy
 ```
 
