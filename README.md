@@ -48,7 +48,7 @@ Route 53 のホストゾーンのルートドメインのドメイン検証を�
 本ソースのトップディレクトリで、下記コマンドを実行します。
 
 ```
-$ npm install
+$ npm ci
 $ cdk synth
 $ cdk bootstrap # 必要であれば https://docs.aws.amazon.com/ja_jp/cdk/v2/guide/bootstrapping.html
 $ cdk deploy
